@@ -1,0 +1,59 @@
+// Estilos para la barra de navegación (navbar)
+.navbar {
+    &-brand {
+      img {
+        width: 30px;
+        height: 24px;
+      }
+    }
+  
+    &-nav {
+      .nav-item {
+        .nav-link {
+          color: #fff;
+          &:hover {
+            color: #ccc;
+          }
+        }
+      }
+    }
+  
+    &-light {
+      background-color: #007bff; // Cambiado a color azul
+    }
+  
+    &-dark {
+      background-color: #007bff; // Cambiado a color azul
+    }
+  }
+  
+  // Estilos para el pie de página (footer)
+  footer.navbar {
+    background-color: #007bff; // Cambiado a color azul
+  
+    .navbar-nav {
+      .nav-link {
+        color: #fff;
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
+  
+    .text-white-50 {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  
+    .text-white {
+      color: #fff;
+      &:hover {
+        color: #ccc;
+      }
+    }
+  
+    p {
+      margin-left: auto;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  
